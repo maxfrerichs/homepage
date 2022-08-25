@@ -15,7 +15,7 @@ paginate = 5
   showMenuItems = 4
 
   # show selector to switch language
-  showLanguageSelector = true
+  showLanguageSelector = false
 
   # set theme to full screen width
   fullWidthTheme = false
@@ -63,8 +63,8 @@ paginate = 5
 [languages]
   [languages.en]
     languageName = "English"
-    title = "Terminal"
-    subtitle = "A simple, retro theme for Hugo"
+    title = "Max Frerichs - Portfolio"
+    subtitle = "Personal web portfolio of Max Frerichs"
     owner = ""
     keywords = "TYPO3, web development, backend development, Docker, "
     copyright = "Max Frerichs"

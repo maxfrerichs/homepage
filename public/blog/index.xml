@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Terminal</title>
+    <title>Blog on Max Frerichs - Portfolio</title>
     <link>/blog/</link>
-    <description>Recent content in Blog on Terminal</description>
+    <description>Recent content in Blog on Max Frerichs - Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Max Frerichs</copyright>

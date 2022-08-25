@@ -3,4 +3,4 @@
 # Welcome to my portfolio!
 #
 
-I'm also occasionally writing on about tech stuff, so feel free to take a look on my blog
+I'm also occasionally writing down my thoughts about tech stuff, so feel free to take a look on my blog

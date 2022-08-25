@@ -19,5 +19,8 @@ jobs:
       - name: Adding known hosts
         run: ssh-keyscan -p ${{ secrets.SSH_PORT}} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
 
+      - name: Install rsync
+        run: apt install -y rsync
+
       - name: Build & deploy with rsync
         run: rsync -avz ./public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/

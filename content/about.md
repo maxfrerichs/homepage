@@ -1,12 +1,7 @@
 +++
 title = "About me"
-date = "2022-08-25"
-author = "Max Frerichs"
-description = "About me page"
+description = "About me"
 +++
-
-
-# About me
 
 ## tl;dr
 I'm a 24-year old guy that dropped out from school sometime in 2017, applied for an internship at the local IT company, web development and finally graduated from the apprenticeship as a IT specialist in software development last year.

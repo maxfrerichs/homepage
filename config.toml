@@ -73,8 +73,8 @@ paginate = 5
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
     olderPosts = "Older posts"
-    missingContentMessage = "Page not found..."
-    missingBackButtonLabel = "Back to home page"
+    missingContentMessage = "Whoops! Seems like there is nothing on this page... :("
+    missingBackButtonLabel = "Go back to home page"
 
     [languages.en.params.logo]
       logoText = "Max - web developer"

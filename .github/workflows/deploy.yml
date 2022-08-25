@@ -4,19 +4,20 @@ on:
     branches:
       - main
 
-build:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v2
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
 
-    - name: Install SSH Key
-      uses: shimataro/ssh-key-action@v2
-      with:
-        key: ${{ secrets.SSH_PRIVATE_KEY }}
-        known_hosts: unnecessary
+      - name: Install SSH Key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: unnecessary
 
-    - name: Adding known hosts
-      run: ssh-keyscan -p ${{ secrets.SSH_PORT}} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
+      - name: Adding known hosts
+        run: ssh-keyscan -p ${{ secrets.SSH_PORT}} -H ${{ secrets.SSH_HOST }}  >> ~/.ssh/known_hosts
 
-    - name: Build & deploy with rsync
-      run: hugo && rsync -avz -delete "ssh -p ${{ secrets.SSH_PORT }}" public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/
+      - name: Build & deploy with rsync
+        run: hugo && rsync -avz -delete "ssh -p ${{ secrets.SSH_PORT }}" public/ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:/var/www/html/

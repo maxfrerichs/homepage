@@ -1,3 +1,11 @@
++++
+title = "About me"
+date = "2022-08-25"
+author = "Max Frerichs"
+description = "About me page"
++++
+
+
 # About me
 
 ## tl;dr

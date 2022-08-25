@@ -1,3 +1,10 @@
++++
+title = "Contact"
+date = "2022-08-25"
+author = "Max Frerichs"
+description = "Contact"
++++
+
 # Contact
 
 ## You can contact me on these way:

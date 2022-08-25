@@ -6,16 +6,56 @@
     <description>Recent content on Terminal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Max Frerichs</copyright><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Max Frerichs</copyright>
+    <lastBuildDate>Thu, 25 Aug 2022 15:38:49 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title></title>
-      <link>/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Why I used a static site generator instead of a CMS (or WordPress) for my homepage</title>
+      <link>/blog/why-i-made-my-homepage-with-hugo-instead-of-typo3/</link>
+      <pubDate>Thu, 25 Aug 2022 15:38:49 +0200</pubDate>
       
-      <guid>/</guid>
-      <description>Hello! I&amp;rsquo;m Max, a full-stack web developer specialized in working with TYPO3 Welcome to my portfolio! </description>
-      <content>&lt;h1 id=&#34;hello-im-max-a-full-stack-web-developer-specialized-in-working-with-typo3&#34;&gt;Hello! I&amp;rsquo;m Max, a full-stack web developer specialized in working with TYPO3&lt;/h1&gt;
-&lt;h1 id=&#34;welcome-to-my-portfolio&#34;&gt;Welcome to my portfolio!&lt;/h1&gt;
+      <guid>/blog/why-i-made-my-homepage-with-hugo-instead-of-typo3/</guid>
+      <description>As you may already know, I&amp;rsquo;m working mostly with Content Management Systems at my job, so why I&amp;rsquo;m using a static site generator I&amp;rsquo;ve never worked before with? The answer is pretty simple: Because I don&amp;rsquo;t need most of the funcionality a full-featured CMS has to offer. Thinking about TYPO3, this CMS has not only it&amp;rsquo;s own configuration meta-language called TypoScript, it also features it&amp;rsquo;s own templating engine, it&amp;rsquo;s own APIs and even a complete Domain-driven design MVC framework named Extbase including everything needed for developing large web apps.</description>
+      <content>&lt;p&gt;As you may already know, I&amp;rsquo;m working mostly with Content Management Systems at my job, so why I&amp;rsquo;m using a static site generator I&amp;rsquo;ve never worked before with? The answer is pretty simple: Because I don&amp;rsquo;t need most of the funcionality a full-featured CMS has to offer. Thinking about TYPO3, this CMS has not only it&amp;rsquo;s own configuration meta-language called TypoScript, it also features it&amp;rsquo;s own templating engine, it&amp;rsquo;s own APIs and even a complete Domain-driven design MVC framework named Extbase including everything needed for developing large web apps. While being very useful for large customer projects, it&amp;rsquo;s just not the choice for a small website like this.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;But why you don&amp;rsquo;t use WordPress? It&amp;rsquo;s a simple blogging software perfectly suited for a site like this&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The answer is: I don&amp;rsquo;t like WordPress at all. While being useful for people with low to no knowlegde in web development that just want to have a small site for their local business or blog, WordPress is absolutely terrible from a technical perspective. The source code is imho a complete mess and the whole thing is full of holes like swiss cheese, speaking about security vulnerabilities.&lt;/p&gt;
+&lt;p&gt;tl;dr: Not every tool you like working with is a good choice for developing a solution for a specific problem&lt;/p&gt;
+&lt;p&gt;Have a great day!
+Max&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>/about/</link>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>About me tl;dr I&amp;rsquo;m a 24-year old guy that dropped out from school sometime in 2017, applied for an internship at the local IT company, web development and finally graduated from the apprenticeship as a IT specialist in software development last year. Since them, I&amp;rsquo;m working as a full-stack web developer at LfdA - Labor für digitale Angelegenheiten GmbH, a small IT company based in Hamburg (Germany), specialized in developing customized web-based solutions for any kind of problem.</description>
+      <content>&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+&lt;h2 id=&#34;tldr&#34;&gt;tl;dr&lt;/h2&gt;
+&lt;p&gt;I&amp;rsquo;m a 24-year old guy that dropped out from school sometime in 2017, applied for an internship at the local IT company, web development and finally graduated from the apprenticeship as a IT specialist in software development last year.
+Since them, I&amp;rsquo;m working as a full-stack web developer at LfdA - Labor für digitale Angelegenheiten GmbH, a small IT company based in Hamburg (Germany), specialized in developing customized web-based solutions for any kind of problem.&lt;/p&gt;
+&lt;h2 id=&#34;about-my-work&#34;&gt;About my work&lt;/h2&gt;
+&lt;p&gt;In my job as a full-stack web developer I&amp;rsquo;m developing and maintaining complex websites based on TYPO3, an open-source enterprise-class CMS. I&amp;rsquo;m experienced in working with TYPO3 in many aspects - from integrating templates with Fluid and TypoScript and extension development to performing LTS upgrades for older TYPO3 installations. I&amp;rsquo;m also developing andf maintaining some design systems based on Pangolin.js with HTML, CSS and JavaScript.&lt;/p&gt;
+</content>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Thu, 25 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>Contact You can contact me on these way: Twitter: @maxfrerichs E-Mail: maxfrerichs@gmx.de Got an idea? Feel free to contact me! </description>
+      <content>&lt;h1 id=&#34;contact&#34;&gt;Contact&lt;/h1&gt;
+&lt;h2 id=&#34;you-can-contact-me-on-these-way&#34;&gt;You can contact me on these way:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Twitter: @maxfrerichs&lt;/li&gt;
+&lt;li&gt;E-Mail: &lt;a href=&#34;mailto:maxfrerichs@gmx.de&#34;&gt;maxfrerichs@gmx.de&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;got-an-idea-feel-free-to-contact-me&#34;&gt;Got an idea? Feel free to contact me!&lt;/h1&gt;
 </content>
     </item>
     
